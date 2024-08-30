@@ -9,6 +9,11 @@ public class AboutMe {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         //Coletando os dados do usuario
+        System.out.println("");
+        System.out.println("*********************************************");
+        System.out.println("*Bem vindo ao aplicativo para calcular o IMC*");  
+        System.out.println("*********************************************");
+        System.out.println("");
         System.out.println("Digite seu nome: ");
         String nome = scanner.next();
 
@@ -23,10 +28,12 @@ public class AboutMe {
 
         System.out.println("Digite sua altura: ");
         double altura = scanner.nextDouble();
+        System.out.println("");       
+        System.out.println("*********************************************");
    
         //Imprimindo os dados obtidos pelo usuario 
-        System.out.println("");       
-        System.out.println("************************");
+        System.out.println("********* Seus dados coletados são: *********"); 
+        System.out.println("*********************************************");
         System.out.println("Ola, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos ");
         System.out.println("Meu peso " + peso);
@@ -47,7 +54,7 @@ public class AboutMe {
                     System.out.println("Sua Classificação é Obesidade Grave III");
                 }
                 System.out.println("Seu IMC é = " + imc);
-                System.out.println("************************");
+                System.out.println("*********************************************");
                 System.out.println("");
             }
         }
