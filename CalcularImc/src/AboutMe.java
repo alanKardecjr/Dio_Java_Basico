@@ -34,26 +34,26 @@ public class AboutMe {
         //Imprimindo os dados obtidos pelo usuario 
         System.out.println("********* Seus dados coletados são: *********"); 
         System.out.println("*********************************************");
-        System.out.println("Ola, me chamo " + nome + " " + sobrenome);
-        System.out.println("Tenho " + idade + " anos ");
-        System.out.println("Meu peso " + peso);
-        System.out.println("Minha altura " + altura + " cm ");
+        System.out.println("| Ola, me chamo " + nome + " " + sobrenome);
+        System.out.println("| Tenho " + idade + " anos ");
+        System.out.println("| Meu peso " + peso);
+        System.out.println("| Minha altura " + altura + " cm ");
                 
         ////Calculando o IMC
         double imc = peso / (altura*altura);
         
                   if (imc <= 18.5) {
-                    System.out.println("Sua Classificação é de Magreza");
+                    System.out.println("| Sua Classificação é de Magreza");
                 } else if (imc >= 18.55 && imc <= 24.9) {
-                    System.out.println("Sua Classificação Está Dentro do Normal");
+                    System.out.println("| Sua Classificação Está Dentro do Normal");
                 } if (imc >= 25.0 && imc <= 29.9) {
-                    System.out.println("Sua Classificação é de Sobrepeso I");
+                    System.out.println("| Sua Classificação é de Sobrepeso I");
                 } else if (imc >= 30.0 && imc <= 39.9) {
-                    System.out.println("Sua Classificação é Obesidade II");
+                    System.out.println("| Sua Classificação é Obesidade II");
                 } else if (imc >= 40.0 ) {
-                    System.out.println("Sua Classificação é Obesidade Grave III");
+                    System.out.println("| Sua Classificação é Obesidade Grave III");
                 }
-                System.out.println("Seu IMC é = " + imc);
+                System.out.println("| Seu IMC é = " + imc);
                 System.out.println("*********************************************");
                 System.out.println("");
             }
